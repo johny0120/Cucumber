@@ -18,7 +18,7 @@ public class LaunchFacebook {
 	@Given("user enters the facebook.com")
 	public void user_enters_the_facebook_com() {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Murali\\eclipse-workspace\\Cucumberjava\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Murali\\git\\Cucumber\\Cucumberjava\\driver\\chromedriver.exe");
 	    // Write code here that turns the phrase above into concrete actions
 		driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
